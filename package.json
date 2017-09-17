@@ -1,0 +1,12 @@
+{
+  "name": "webprogbase1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mightyYaroslav/webprogbase1.git",
+  "author": "mightyYaroslav <yaroslavsmth@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "html5-lint": "^0.3.0"
+  }
+}
