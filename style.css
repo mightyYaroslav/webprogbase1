@@ -9,14 +9,29 @@
     background-size: cover;
 }
 
+.background:before{
+    content: "";
+    position: absolute;
+    /* height: 20%; width: 20%; */
+    background: url(img/bg.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    
+    /* don't forget to use the prefixes you need */
+    /* -webkit-transform: scale(5);
+    -webkit-transform-origin: top left; */
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
 .blur-background {
-    z-index: -1;
+    /* z-index: -1; */
     /* display: block; */
-    -webkit-filter: blur(5px);
+    /* -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-    filter: blur(5px);
+    filter: blur(5px); */
 }
 
 .centered-horizontally .content {
